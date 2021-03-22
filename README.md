@@ -21,8 +21,8 @@
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 </br>
 ## :innocent: Motivation
-A Deep Learning based model used for the prediction whether a person is suffering from pneumonia or not. The project is absed upon the Standard Convolutional Based Neural Network Architectural Implementation. It incorporates the use of CNN layers with Hyper-parameters tuning. The motivation behind the project is to effectively classify the reports of chest xrays to classify into pneumonia or non-pneumonia cases.
-</br></br> The mdoel has been trained for 12 epoch. The model gave an accuracy of __98.51__ on validation sets.
+A Deep Learning based model used for the prediction whether a person is suffering from pneumonia or not. The project is absed upon the Standard __Convolutional Based Neural Network__ Architectural Implementation. It incorporates the use of CNN layers with Hyper-parameters tuning. The motivation behind the project is to effectively classify the reports of chest xrays to classify into pneumonia or non-pneumonia cases.
+</br></br> The model has been trained for 12 epoch. The model gave an accuracy of __98.51__ on validation sets.
 
 
 
@@ -33,7 +33,8 @@ A Deep Learning based model used for the prediction whether a person is sufferin
 <p align="center"><img src="https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/pneumonia.png" width="700" height="400"></p>
 
 <p align="center"><b>Case of Pneumonia</b></p>
-## :warning: TechStack/framework used
+
+## :⚠: TechStack/framework used
 
 - [OpenCV](https://opencv.org/)
 - [Keras](https://keras.io/)
@@ -43,7 +44,7 @@ A Deep Learning based model used for the prediction whether a person is sufferin
 ## :file_folder: Data Distribution
 The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
 
-This dataset consists of __17113 images__ belonging to 27 classes:
+This dataset consists of __images__ belonging to 2 classes:
 <!---*	__Training Set: 12845 images__<br />
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/train_data_distribution.png" ></br><b>Train Data Statistics</b></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
@@ -55,27 +56,21 @@ This dataset consists of __17113 images__ belonging to 27 classes:
 
 
 ## :star: Features
-Our model is capable of predicting gestures from American sign language in real-time with high efficiency. These __predicted alphabets__ are converted to form __words__ and hence forms __sentences__. These sentences are converted into __voice modules__ by incorporating __Google Text to Speech__(gTTS API).</br></br>
-The model is efficient, since we used a compact __CNN-based architecture__, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.). This system can therefore be used in real-time applications which aims at bridging the the gap in the process of communication between the __Deaf and Dumb people with rest of the world__.
-
+Our model is capable of predicting Pneumonia from chest x-ray images with high efficiency. These __predicted images__ are converted to grayscale version for predictions.</br></br>
+The model is efficient, since we used a compact __CNN-based architecture__, it’s also computationally efficient and thus making it easier to deploy the model to servers.
+<!---
 ## 🎨 Feature Extraction
 * Gaussian filter is used as a pre-processing technique to make the image smooth and eliminate all the irrelevat noise.
 * Intensity is analyzed and Non-Maximum suppression is implemented to remove false edges.
 * For a better pre-processed image data, double thresholding is implemented to consider only the strong edges in the images.
 * All the weak edges are finally removed and only the strong edges are consdered for the further phases. <br />
 <br />![](Analysis/fe.png)<br />
-The above figure shows pre-processed image with extracted features which is sent to the model for classification.
-
-## 🎯 Proposed Flow
-</br>
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/Proposed%20Flow.png" width="700" height="400"></p>
-<!---![](Analysis/Proposed%20Flow.png)<br />--->
-The figure above shows a detailed pipeline of the model architecture. It can be interpreted that a Convolutional architecture has been proposed.
+The above figure shows pre-processed image with extracted features which is sent to the model for classification.--->
 
 
 ## :key: Prerequisites
 
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/requirements.txt)
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/requirements.txt)
 
 ## 🚀&nbsp; Installation
 1. Start and fork the repository.
@@ -102,32 +97,23 @@ $ pip3 install -r requirements.txt
 $ python3 jupyter
 ```
 
-2. To train the model, open the [ASL_train](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/ASL_train.ipynb) file in jupyter notebook and run all the cells </br>
-
-3. To detect ASL Gestures in real-time video streams run the [ASL_Real-Time.ipynb](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
-
-* __'NOTE'__: You can directly use [asl_classifier.h5](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/asl_classifier.h5) file trained by me for real-time predictions in [Real-Time](https://github.com/beingaryan/Automated-Sign-To-Speech-Conversion/blob/master/ASL_Real-Time.ipynb) file.
+2. To train the model, open the [Pneumonia_Prediction](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/PNEUMONIA_DETECTION.ipynb) file in jupyter notebook and run all the cells </br>
 
 </br></br>
 ## :key: Results 
-#### Our model gave 99.8% accuracy for Sign Language Detection after training via <code>tensorflow-gpu==2.0.0</code>
-<br /><br />![](Analysis/Classification_report.png)<br />
+#### Our model gave 98.51% accuracy for validation set of Pneumonia Detection via <code>tensorflow-gpu==2.0.0</code>
+<br />
 * The model has been trained on a python based environment on Jupyter platform.
-* The model is iterated for a total epoch of 20. 
-* The model has attained an accuracy of __99.88 %__ accuracy on the Validation set.
-* The prescribed model has been evaluated on __Test set__ where it has attained an accuracy of __99.85%__ with loss of 0.60 %.
-#### We got the following accuracy/loss training curve plot
-![](Analysis/Loss%20vs%20Epoch.png)<br />
+* The model is iterated for a total epoch of 12. 
+* The model has attained an accuracy of __98.51 %__ accuracy on the Validation set.
+
+#### We got the following accuracy vs. epochs curve plot
+![](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/accuracy%20vs%20epochs.png)<br />
+#### The above figure shows the Accracy plot of the model throughout it's training journey. 
+
+<br /><br />![](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/loss%20vs%20epochs.png)<br/>
 #### The above figure shows the Loss plot of the model throughout it's training journey. 
 
-<br /><br />![](Analysis/Accuracy%20vs%20Epoch.png)<br/>
-#### The above figure shows the Accuracy plot of the model throughout it's training journey. 
-
-## 📈 Analysis
-
-#### The training phase data has been evaluated on the Heatmap Plotting representation. 
-![](Analysis/Heatmp.png)<br />
-#### The prescribed analysis aims that each class is most correlated with that traned class.
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query 
@@ -136,7 +122,7 @@ Feel free to mail me for any doubts/query
 
 
 ## :handshake: Contribution
-Feel free to **file a new issue** with a respective title and description on the the [Sign-Language-Detection](https://github.com/beingaryan/Sign-To-Speech-Conversion/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Pneumonia_Detection](https://github.com/beingaryan/Lung-Pneumonia-Prediction/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
 
 
 ## :heart: Owner
@@ -146,9 +132,7 @@ Made with :heart:&nbsp;  by [Aryan Gupta](https://github.com/beingaryan)
 ## :+1: Credits
 * [https://www.pyimagesearch.com/](https://www.pyimagesearch.com/)
 * [https://opencv.org/](https://opencv.org/)
-* Efthimiou, Eleni & Fotinea, Stavroula-Evita & Vogler, Christian & Hanke, Thomas & Glauert, John & Bowden, Richard & Braffort, Annelies & Collet, Christophe & Maragos, Petros & Segouat, Jérémie. (2009). 
-* Sign Language Recognition, Generation, and Modelling: A Research Effort with Applications in Deaf Communication. 21-30. 10.1007/978-3-642-02707-9_3. 
-* Pramada, Sawant & Vaidya, Archana. (2013). Intelligent Sign Language Recognition Using Image Processing. IOSR Journal of Engineering. 03. 45-51. 10.9790/3021-03224551.
+
 
 ## :handshake: Our Contributors
 [CONTRIBUTORS.md](/CONTRIBUTORS.md)
@@ -159,7 +143,7 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 
 ## :eyes: License
-MIT © [Aryan Gupta](https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/LICENSE)
+MIT © [Aryan Gupta](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/LICENSE)
 
 
 
