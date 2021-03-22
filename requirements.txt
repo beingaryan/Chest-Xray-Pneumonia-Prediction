@@ -1,0 +1,11 @@
+keras
+tensorflow
+gTTS
+playsound
+numpy
+sklearn
+pandas
+scikit
+matplotlib
+os
+ModelCheckpoint
