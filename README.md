@@ -15,14 +15,14 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <p align="center"><img src="https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/Non%20pneumonia.png" width="700" height="400"></p>
-<p align="center">Non Pneumonia</p>
+<p align="center"><b>Non Pneumonia</b></p>
 
 ## :point_down: Support me here!
 <a href="https://www.buymeacoffee.com/beingaryan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 </br>
 ## :innocent: Motivation
-A language translator is extensively utilized by the mute people for converting and giving shape to their thoughts. A system is in urgent need of __recognizing and translating sign language__.  </br></br>
-Lack of efficient gesture detection system designed specifically for the differently abled, motivates us as a team to do something great in this field. The proposed work aims at converting such sign gestures into speech that can be understood by normal people. The entire model pipeline is developed by CNN architecture for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ .
+A Deep Learning based model used for the prediction whether a person is suffering from pneumonia or not. The project is absed upon the Standard Convolutional Based Neural Network Architectural Implementation. It incorporates the use of CNN layers with Hyper-parameters tuning. The motivation behind the project is to effectively classify the reports of chest xrays to classify into pneumonia or non-pneumonia cases.
+</br></br> The mdoel has been trained for 12 epoch. The model gave an accuracy of __98.51__ on validation sets.
 
 
 
@@ -30,8 +30,9 @@ Lack of efficient gesture detection system designed specifically for the differe
 <!---Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __research gap__ and to contribute to recognize __American sign languages(ASL)__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ on the test set.--->
 
 
-<p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/z3.gif" width="700" height="400"></p>
+<p align="center"><img src="https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/pneumonia.png" width="700" height="400"></p>
 
+<p align="center"><b>Case of Pneumonia</b></p>
 ## :warning: TechStack/framework used
 
 - [OpenCV](https://opencv.org/)
