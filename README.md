@@ -42,7 +42,7 @@ A Deep Learning based model used for the prediction whether a person is sufferin
 
 
 ## :file_folder: Data Distribution
-The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/16ce6Hc4U5Qr6YBArcozoYom6TT5-7oSc?usp=sharing)
+The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/1f6QGKHQ2rJD3jCrumAKXPbUg_Q8TenFz?usp=sharing)
 
 This dataset consists of __images__ belonging to 2 classes:
 <!---*	__Training Set: 12845 images__<br />
