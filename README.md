@@ -77,7 +77,7 @@ All the dependencies and required libraries are included in the file <code>requi
 
 2. Clone the repo
 ```
-$ git clone https://github.com/beingaryan/Sign-To-Speech-Conversion.git
+$ git clone https://github.com/beingaryan/Lung-Pneumonia-Prediction.git
 ```
 
 3. Change your directory to the cloned repo and create a Python virtual environment named 'test'
