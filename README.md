@@ -52,7 +52,7 @@ This dataset consists of __images__ belonging to 2 classes:
 <!---*	__Test Set: 4368 images__<br />
 <p align="center"><img src="https://github.com/beingaryan/Sign-To-Speech-Conversion/blob/master/Analysis/test_data_Distribution.png" ></br><b>Test Data Statistics</b></p>
 <!---<br />![](Analysis/train_data_distribution.png)<br />--->
---->
+
 
 
 ## :star: Features
