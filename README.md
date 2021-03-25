@@ -1,20 +1,20 @@
 
-<h1 align="center">Lung-Pneumonia-Prediction</h1>
+<h1 align="center">Chest-Xray-Pneumonia-Prediction</h1>
 
 <div align= "center">
-  <h4>Lung-Pneumonia-Prediction built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts. </h4>
+  <h4>Chest-Xray-Pneumonia-Prediction built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts. </h4>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/beingaryan/Lung-Pneumonia-Prediction/issues)
-[![Forks](https://img.shields.io/github/forks/beingaryan/Lung-Pneumonia-Predictionsvg?logo=github)](https://github.com/beingaryan/Lung-Pneumonia-Prediction/network/members)
-[![Stargazers](https://img.shields.io/github/stars/beingaryan/Lung-Pneumonia-Prediction.svg?logo=github)](https://github.com/beingaryan/Lung-Pneumonia-Prediction/stargazers)
-[![Issues](https://img.shields.io/github/issues/beingaryan/Lung-Pneumonia-Prediction.svg?logo=github)](https://github.com/beingaryan/Lung-Pneumonia-Prediction/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/issues)
+[![Forks](https://img.shields.io/github/forks/beingaryan/Chest-Xray-Pneumonia-Predictionsvg?logo=github)](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/network/members)
+[![Stargazers](https://img.shields.io/github/stars/beingaryan/Chest-Xray-Pneumonia-Prediction.svg?logo=github)](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/stargazers)
+[![Issues](https://img.shields.io/github/issues/beingaryan/Chest-Xray-Pneumonia-Prediction.svg?logo=github)](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/issues)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/aryan-gupta-6a9201191/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<p align="center"><img src="https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/Non%20pneumonia.png" width="700" height="400"></p>
+<p align="center"><img src="https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/Outputs/Non%20pneumonia.png" width="700" height="400"></p>
 <p align="center"><b>Non Pneumonia</b></p>
 
 ## :point_down: Support me here!
@@ -30,7 +30,7 @@ A Deep Learning based model used for the prediction whether a person is sufferin
 <!---Unable to communicate verbally is a disability. In order to communicate there are many ways, one of the most popular methods is the use of predefined sign languages. The purpose of this project is to bridge the __research gap__ and to contribute to recognize __American sign languages(ASL)__ with maximum efficiency. This repository focuses on the recognition of ASL in real time, converting predicted characters to sentences and output is generated in terms of voice formats. The system is trained by convolutional neural networks for the classification of __26 alphabets__ and one extra alphabet for null character. The proposed work has achieved an efficiency of __99.88%__ on the test set.--->
 
 
-<p align="center"><img src="https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/pneumonia.png" width="700" height="400"></p>
+<p align="center"><img src="https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/Outputs/pneumonia.png" width="700" height="400"></p>
 
 <p align="center"><b>Case of Pneumonia</b></p>
 
@@ -70,14 +70,14 @@ The above figure shows pre-processed image with extracted features which is sent
 
 ## :key: Prerequisites
 
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/requirements.txt)
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/requirements.txt)
 
 ## 🚀&nbsp; Installation
 1. Start and fork the repository.
 
 2. Clone the repo
 ```
-$ git clone https://github.com/beingaryan/Lung-Pneumonia-Prediction.git
+$ git clone https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction.git
 ```
 
 3. Change your directory to the cloned repo and create a Python virtual environment named 'test'
@@ -97,7 +97,7 @@ $ pip3 install -r requirements.txt
 $ python3 jupyter
 ```
 
-2. To train the model, open the [Pneumonia_Prediction](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/PNEUMONIA_DETECTION.ipynb) file in jupyter notebook and run all the cells </br>
+2. To train the model, open the [Pneumonia_Prediction](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/PNEUMONIA_DETECTION.ipynb) file in jupyter notebook and run all the cells </br>
 
 </br></br>
 ## :key: Results 
@@ -108,10 +108,10 @@ $ python3 jupyter
 * The model has attained an accuracy of __98.51 %__ accuracy on the Validation set.
 
 #### We got the following accuracy vs. epochs curve plot
-![](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/accuracy%20vs%20epochs.png)<br />
+![](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/Outputs/accuracy%20vs%20epochs.png)<br />
 #### The above figure shows the Accracy plot of the model throughout it's training journey. 
 
-<br /><br />![](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/Outputs/loss%20vs%20epochs.png)<br/>
+<br /><br />![](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/Outputs/loss%20vs%20epochs.png)<br/>
 #### The above figure shows the Loss plot of the model throughout it's training journey. 
 
 
@@ -122,7 +122,7 @@ Feel free to mail me for any doubts/query
 
 
 ## :handshake: Contribution
-Feel free to **file a new issue** with a respective title and description on the the [Pneumonia_Detection](https://github.com/beingaryan/Lung-Pneumonia-Prediction/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Pneumonia_Detection](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
 
 
 ## :heart: Owner
@@ -143,7 +143,7 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 
 ## :eyes: License
-MIT © [Aryan Gupta](https://github.com/beingaryan/Lung-Pneumonia-Prediction/blob/main/LICENSE)
+MIT © [Aryan Gupta](https://github.com/beingaryan/Chest-Xray-Pneumonia-Prediction/blob/main/LICENSE)
 
 
 
